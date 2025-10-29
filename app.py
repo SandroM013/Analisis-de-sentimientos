@@ -39,7 +39,7 @@ except FileNotFoundError:
 tokenizer = ToktokTokenizer()
 STOPWORDS = set(stopwords.words('english'))
 wnl = WordNetLemmatizer()
-EMOJI_RE = re.compile("[" 
+EMOJI_RE = re.compile("["
     u"\U0001F600-\U0001F64F"
     u"\U0001F300-\U0001F5FF"
     u"\U0001F680-\U0001F6FF"
